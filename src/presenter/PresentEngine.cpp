@@ -139,8 +139,8 @@ void D3DPresentEngine::releaseSharedTexture()
 	//glDeleteTextures(1, &gl_name);
 	SAFE_RELEASE(d3d_shared_surface);
 	SAFE_RELEASE(d3d_shared_texture);
-
 }
+
 bool D3DPresentEngine::lockSharedTexture()
 {
 	if (!gl_handleD3D) return false;

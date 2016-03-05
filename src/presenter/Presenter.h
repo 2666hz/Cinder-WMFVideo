@@ -256,7 +256,6 @@ protected:
     IMediaEventSink             *m_pMediaEventSink;      // The EVR's event-sink interface.
     IMFMediaType                *m_pMediaType;           // Output media type
 
-
 public:
 	HANDLE getSharedDeviceHandle();
 	bool createSharedTexture(int w, int h, int textureID) { return m_pD3DPresentEngine->createSharedTexture(w,h, textureID ); }
